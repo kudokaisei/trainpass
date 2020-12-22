@@ -1,0 +1,29 @@
+.Header
+  %h2 TrainPass
+.Main
+  .Explanation
+    .Text
+      %h3 定期買うべき？やめるべき？
+      %p ※「対象区間の定期代」「通常の片道運賃」を右で入力！
+      %p ※何日以上通うなら定期を買うべきか自動計算！
+    .Link
+      = link_to '対象区間の定期代を確認▶︎', 'https://www.navitime.co.jp/transfer/pass/', target: "_blank"
+      = link_to '対象区間の片道運賃を確認▶︎', 'https://www.navitime.co.jp/transfer/', target: "_blank"
+      %input{type: "date"}
+      ※カレンダーが確認できます。
+  .Calculation
+    .Regular
+      %p 対象区間の定期代を入力
+      .sub
+        %input#price_calc.price_box{placeholder: "例) 10000", type: "number"}/
+        %p 円
+    .Fare
+      %p 対象区間の片道運賃を入力
+      .sub
+        %input#price_calc2.price_box2{placeholder: "例) 400", type: "number"}/
+        %p 円
+    .Result
+      .sub
+        %input#price{type: "text"}/
+        %p 日
+      %p 以上通うなら定期を購入した方がお得！

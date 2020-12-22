@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: image-url("iStock-1151382964.jpg");
+  background-size: 100% 100%;
+}
+
+.Header {
+  border-bottom: solid 1px black;
+  h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: green;
+  text-align: center;
+  font-family: Comic Sans MS;
+  }
+}
+
+.Main {
+  height: calc(100vh - 50px);
+  width: 100vw;
+  display: flex;
+  .Explanation {
+    border-right: solid 1px black;
+    width: 50%;
+    .Text {
+      width: 100%;
+      height: 150px;
+      padding: 20px;
+      // border-bottom: solid 1px black;
+      h3 {
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+      }
+      p {
+        margin-top: 20px;
+      }
+    }
+    .Link {
+      width: 100%;
+      height: 250px;
+      padding: 20px;
+      a {
+        text-decoration: none;
+        display: block;
+        margin: 20px 0 30px 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: green;
+        width: 300px;
+      }
+      input {
+        display: block;
+      }
+    }
+  }
+  .Calculation {
+    width: 50%;
+  }
+  .Regular {
+    width: 100%;
+    height: 150px;
+    border-bottom: solid 1px black;
+    p {
+      font-size: 20px;
+      margin: 20px 0 10px 20px;
+    }
+    .sub {
+      display: flex;
+      input {
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        margin-left: 20px;
+        padding-left: 5px;
+      }
+      p {
+        font-size: 20px;
+        margin: 5px;
+      }
+    }
+  }
+  .Fare {
+    width: 100%;
+    height: 150px;
+    border-bottom: solid 1px black;
+    p {
+      font-size: 20px;
+      margin: 20px 0 10px 20px;
+    }
+    .sub {
+      display: flex;
+      input {
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        margin-left: 20px;
+        padding-left: 5px;
+      }
+      p {
+        font-size: 20px;
+        margin: 5px;
+      }
+    }
+  }
+  .Result {
+    width: 100%;
+    height: 200px;
+    .sub {
+      display: flex;
+      input {
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        margin: 20px 0 5px 20px;
+        text-align: right;
+        padding-right: 5px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 20px;
+        margin: 25px 0 0 5px;
+        font-weight: bold;
+      }
+    }
+    p {
+      font-size: 20px;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+  }
+}
