@@ -27,5 +27,10 @@ TrainPass
 ・HAML/SASS記法とBEMの命名規則に基づいたマークアップ  
 ・JavaScriptによる自動計算機能実装
 
+# Development 
+・Ruby on Rails  
+・JavaScript  
+・VSCode(Visual Studio Code)  
+
 # Plan
 　今後は通う日にちを確認するためのカレンダー機能を充実させたいと思っています。（現状小さなカレンダーが表示されるのみ）外部に見やすいカレンダーを表示させ、祝日や休日が瞬時にわかるカレンダーを実装予定。
