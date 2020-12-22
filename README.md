@@ -13,7 +13,7 @@ TrainPass
 <img width="1420" alt="スクリーンショット 2020-12-22 14 48 57" src="https://user-images.githubusercontent.com/68519582/102856928-d2df3e00-446a-11eb-9145-12b739904514.png">
 
 ・トップページ（自動計算動作）  
-https://user-images.githubusercontent.com/68519582/102857422-be4f7580-446b-11eb-8a3e-16b3c4259040.mp4
+![4267cc374a6e86d20eb2b72aa0c83c01](https://user-images.githubusercontent.com/68519582/102858127-12a72500-446d-11eb-9ac2-c3bd727d15fb.gif)
 
 ・トップページ（外部サイトへ遷移して定期代、片道運賃が確認できます。）  
 <img width="871" alt="スクリーンショット 2020-12-22 15 16 28" src="https://user-images.githubusercontent.com/68519582/102856348-a24ad480-4469-11eb-8069-1c37df9b8f23.png">
