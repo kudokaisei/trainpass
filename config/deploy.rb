@@ -2,7 +2,7 @@
 lock "3.15.0"
 
 set :application, "trainpass"
-set :repo_url, "git@github.com:githubのkudokaisei/trainpass.git"
+set :repo_url, "git@github.com:kudokaisei/trainpass.git"
 
 # githubのデフォルトのブランチがmasterではなくmainになっている場合のみ以下1行のコメントアウトを外して追記してください。 ※1補足
 # set :branch, 'main'
