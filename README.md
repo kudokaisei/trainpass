@@ -30,6 +30,7 @@ TrainPass
 # Development 
 ・Ruby on Rails  
 ・JavaScript  
+・デプロイ（AWS EC2)
 ・VSCode(Visual Studio Code)  
 
 # Plan
